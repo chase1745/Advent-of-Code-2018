@@ -1,3 +1,4 @@
 # AdventOfCode
 Advent of Code is a series of small programming puzzles for a variety of skill levels. They are self-contained and are just as appropriate for an expert who wants to stay sharp as they are for a beginner who is just learning to code. Each puzzle calls upon different skills and has two parts that build on a theme. - http://adventofcode.com/
 
+I've created `newproblem.py` to set up everything I need to get started on a new problem, just run `python newproblem.py {dayNumber} {problemNumer}` and it will create a new directory `{day}-{problem}/`, a new `.py` file `{day}-{problem}.py`, and move the recently downloaded problem input (named `{day}-{problem}.txt`) from the user's `{home}/Downloads/` directory into the newly created day and problem directory.
