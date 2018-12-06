@@ -5,4 +5,9 @@ class FileReader():
     def getlines(self):
         with open(self.filename, 'r') as f:
             for line in f:
-                yield line        
+                yield line      
+
+    def getfirstline(self):
+          with open(self.filename, 'r') as f:
+            for line in f:
+                return line
